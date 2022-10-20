@@ -1,0 +1,18 @@
+{
+  "name": "mflix",
+  "version": "1.0.0",
+  "description": "Mock backend piece of the mflix test application",
+  "main": "index.js",
+  "scripts": {
+    "dstart": "nodemon server.js"
+  },
+  "author": "Luis Veras",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
