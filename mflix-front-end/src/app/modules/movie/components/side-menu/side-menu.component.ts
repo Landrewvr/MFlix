@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 import { MovieGenreEnum } from 'src/app/models/enums/movie_genres_enums';
 import { SharedService } from 'src/app/modules/shared/services/shared/shared.service';
 
@@ -12,7 +12,10 @@ export class SideMenuComponent implements OnInit {
   movieGenres: Array<string>
  
 
-  constructor(private sharedService: SharedService) { 
+  constructor(
+    private sharedService: SharedService,
+    private eRef: ElementRef
+    ) { 
     this.movieGenres = Object.keys(MovieGenreEnum).map(genre => genre);
     this.movieGenres = this.movieGenres.sort();
   }
@@ -24,7 +27,11 @@ export class SideMenuComponent implements OnInit {
     this.sharedService.genre.next(genre);
   }
 
-  close() {
+  @HostListener('document:click',['$event'])
+  close(event?: any) {
+    const elementId = new ElementRef(event.target).nativeElement.id
+    console.log(elementId)
+    if(elementId !== 'menu' && elementId !== 'genre-item')
     this.sharedService.showMenu.next(false);
   }
   

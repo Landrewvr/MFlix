@@ -1,12 +1,5 @@
 <div class="menu">
-<div class="close-section">
-    <button class="close-btn" (click)="close()">
-        <i>
-            <img class="close-icon" src="../../../../../assets/x.png" >
-        </i>
-    </button>
-</div>
-<div class="genre-item hightlight" *ngFor="let genre of movieGenres" (click)="filterGenre(genre)">
-    <span>{{genre}}</span>
-</div>
+    <div id="genre-item" class="genre-item hightlight" *ngFor="let genre of movieGenres" (click)="filterGenre(genre)">
+        <span id="genre-item">{{genre}}</span>
+    </div>
 </div>

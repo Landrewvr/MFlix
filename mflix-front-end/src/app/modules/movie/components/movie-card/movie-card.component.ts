@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Movie } from 'src/app/models/movie';
+import { MovieDetailsComponent } from '../movie-details/movie-details.component';
 
 @Component({
   selector: 'mfx-movie-card',
@@ -9,16 +11,17 @@ import { Movie } from 'src/app/models/movie';
 export class MovieCardComponent implements OnInit {
 
   @Input() movie!: Movie;
-  gonzaloCastillo: Array<String> = ['mmg','mmg','mmg'];
 
-  constructor() { }
+  constructor(
+    private modalService: NgbModal
+  ) { }
 
   ngOnInit(): void {
-    console.log(this.movie)
   }
 
-  loadDetails() {
-    
+  loadDetails(movie: Movie) {
+    const modalRef = this.modalService.open(MovieDetailsComponent, { size: 'xl' });
+    (<MovieDetailsComponent>modalRef.componentInstance).movie = movie;
   }
 
 }

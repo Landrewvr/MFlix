@@ -1,6 +1,6 @@
 <div class="movie-card" *ngIf="movie">
-    <div (click)="loadDetails()">
-        <img class="movie-poster" [src]="movie.poster" (click)="loadDetails()" >
+    <div>
+        <img class="movie-poster" [src]="movie.poster" (click)="loadDetails(movie)" >
     </div>
     <div class="movie-genres">
         <span *ngFor="let genre of movie.genres; let i = index">

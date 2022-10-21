@@ -7,7 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { MovieCarouselComponent } from './components/movie-carousel/movie-carousel.component';
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
-import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule, NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from '../shared/shared.module';
 import { MovieCardComponent } from './components/movie-card/movie-card.component';
 
@@ -25,6 +25,7 @@ import { MovieCardComponent } from './components/movie-card/movie-card.component
     CommonModule,
     MovieRoutingModule,
     NgbCarouselModule,
+    NgbModalModule,
     SharedModule
   ]
 })
