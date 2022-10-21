@@ -695,7 +695,7 @@
 		runtime: 78,
 		num_mflix_comments: 2,
 		poster:
-			"https://m.media-amazon.com/images/M/MV5BMjAwNTIxMjE5N15BMl5BanBnXkFtZTgwODc1Mjg1MzE@._V1_SY1000_SX677_AL_.jpg",
+			"https://upload.wikimedia.org/wikipedia/commons/6/66/Civilization_Poster.jpg",
 		title: "Civilization",
 		fullplot:
 			"Allegorical film about peace. A king starts a war, many of the women are against it, people are pressed into service. A count has constructed a submarine and gets the order to sink an ocean liner, that is also carrying - supposedly - ammunition for the enemy. The count refuses to fire the torpedos, and sinks the submarine. He survives, but in a limbo between death and life where he meets Jesus, who takes him over to preach peace. Naturally the king arrests him and sentences him to death for treason, but then Jesus shows him the real face of war.",
@@ -846,7 +846,7 @@
 		runtime: 140,
 		rated: "NOT RATED",
 		poster:
-			"https://m.media-amazon.com/images/M/MV5BYWU0OWJmZmEtODZlMi00MmJjLWEwYWItNDg3OGNkM2Q0MTgzXkEyXkFqcGdeQXVyODU2MDg1NzU@._V1_SY1000_SX677_AL_.jpg",
+			"https://i.etsystatic.com/24830546/r/il/25d069/2665560346/il_794xN.2665560346_p4f8.jpg",
 		title: "Greed",
 		fullplot:
 			"John McTeague was a simple slow man who became a dentist after working at the Big Dipper Gold Mine. He is now being hunted in Death Valley by his ex-best friend Marcus and the law. His lot was cast the day that he meet his future wife Trina in his office. She was with Marcus and she bought a lottery ticket. Well Mac fell for her and Marcus stepped aside. When Mac and Trina married, she won the Lottery for $5000 and became obsessive about the money in gold. Marcus is steamed as he stepped aside and now she is rich so he has the law shut down Mac as he has no official schooling for his dentistry. Trina fearful that they will take her gold away sells everything and takes all Mac earns when he is working. She adds to her stash of gold as they both live as paupers. When Mac has no job and no money, he leaves and Trina moves. Driven to desperation at being poor and hungry he finds Trina and demands the gold.",
@@ -887,7 +887,7 @@
 		runtime: 71,
 		rated: "PASSED",
 		poster:
-			"https://m.media-amazon.com/images/M/MV5BMTI0MzA5OTk2M15BMl5BanBnXkFtZTcwNzM2NzYxMQ@@._V1_SY1000_SX677_AL_.jpg",
+			"https://cdn.shopify.com/s/files/1/0150/7896/products/GrassMilestoneCInemathequeLogo_400x.jpg?v=1568667586",
 		title: "Grass: A Nation's Battle for Life",
 		fullplot:
 			"The real-life struggles of the Bakhtiari tribe of Southern Persia (Iran) to migrate with 50,000 people and ten times as much livestock over seemingly impassable natural barriers of mountain and river during harsh weather conditions to reach grazing lands for their cattle and other livestock. Their hardscrabble life is portrayed with poetically beautiful cinematography in possibly the greatest documentary of the silent era.",
